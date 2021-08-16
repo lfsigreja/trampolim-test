@@ -48,6 +48,7 @@ body {
 }
 
 .card-done {
+	border-radius: 15px;
 	font-weight: 700;
 	background-color: #95B634;
 	box-shadow: rgba(0, 0, 0, 0.2);
