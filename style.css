@@ -3,6 +3,7 @@ body {
 	color: #274156;
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
+	height: 100vh;
 }
 
 .quadradin {
@@ -54,11 +55,19 @@ body {
 	padding: 1rem;
 }
 
+.card:last-child{
+	margin-bottom: 30px;
+}
+
+.card-done:last-child {
+	margin-bottom: 30px;
+}
+
 .footer {
+	position: fixed;
 	background-color: #1c6e8c;
 	bottom: 0;
 	left: 0;
-	position: absolute;
 	padding: 1rem;
 	right: 0;
 }
